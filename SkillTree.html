@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Uma Alma Carmica</title>
+  </head>
+  <body>
+     <nav>
+        <a href="https://reysouza.github.io/Kawakami/">
+        <div class="logo">
+        <img decoding="async" src="img/Centro.png" alt="Logo Image">
+        </div>
+        </a>
+        <div class="hamburger">
+            <div class="bars1"></div>
+            <div class="bars2"></div>
+            <div class="bars3"></div>
+        </div>
+        <ul class="nav-links">
+            <h4>Pontos de Personagem</h4>
+            <input type="text" name="points" id="points" value="" />
+            <h4>Pontos de Foco</h4>
+            <input type="text" name="focus" id="focus" value="" /> 
+ 
+            <label for="input">Converter PP para PF:</label>
+            <input type="number" id="input">
+           </div>
+          <br>
+           <div id="outputDisplay"></div>
+           <button onclick="convertNumber()">Converter</button>
+           <br><br>
+        </ul>
+    </nav>
+
+<div id="mySidebar" class="sidebar">
+  <br></br>
+  <br></br>
+  <a href="#" class="closebtn" onclick="toggleNav()">&times;</a>
+</div>
+
+<img src="img/SkillTree.png" usemap="#image-map">
+
+<map name="image-map">
+    <area target="" alt="A Lenda do descendente de Mara, O corruptor" title="A Lenda do descendente de Mara, O corruptor" href="" coords="2115,979,71" shape="circle" onclick="toggleSidebar(); return false;">
+    <area target="" alt="A Verdadeira face do deus secreto" title="A Verdadeira face do deus secreto" href="" coords="2095,1278,82" shape="circle" onclick="toggleSidebar(); return false;"> 
+    <area target="" alt="O Guerreiro que luta sob o sol eterno do verão" title="O Guerreiro que luta sob o sol eterno do verão" href="" coords="1850,1536,89" shape="circle" onclick="toggleSidebar(); return false;">
+    <area target="" alt="Verão dos deuses da terra" title="Verão dos deuses da terra" href="" coords="1626,1719,67" shape="circle" onclick="toggleSidebar(); return false;">
+    <area target="" alt="Verão dos deuses celestiais" title="Verão dos deuses celestiais" href="" coords="2047,1719,82" shape="circle" onclick="toggleSidebar(); return false;">
+    <area target="" alt="Prisma solar" title="Prisma solar" href="" coords="1626,2073,60" shape="circle" onclick="toggleSidebar(); return false;">
+    <area target="" alt="Terra Desolada" title="Terra Desolada" href="" coords="2061,2080,87" shape="circle" onclick="toggleSidebar(); return false;">
+    <area target="" alt="Hyakki Yagyo" title="Hyakki Yagyo" href="" coords="2421,850,82" shape="circle" onclick="toggleSidebar(); return false;">
+    <area target="" alt="Maldição Celestial" title="Maldição Celestial" href="" coords="2700,1033,70" shape="circle" onclick="toggleSidebar(); return false;">
+    <area target="" alt="Nictofobia" title="Nictofobia" href="" coords="2986,1053,76" shape="circle" onclick="toggleSidebar(); return false;">
+    <area target="" alt="Virtude Budista" title="Virtude Budista" href="" coords="2258,639,98" shape="circle" onclick="toggleSidebar(); return false;">
+    <area target="" alt="O Caminho dos nove sofrimentos" title="O Caminho dos nove sofrimentos" href="" coords="1904,768,79" shape="circle" onclick="toggleSidebar(); return false;">
+    <area target="" alt="Prakrti" title="Prakrti" href="" coords="1809,523,76" shape="circle" onclick="toggleSidebar(); return false;">
+    <area target="" alt="Caminho ensanguentado do nirvana" title="Caminho ensanguentado do nirvana" href="" coords="1564,326,74" shape="circle" onclick="toggleSidebar(); return false;">
+    <area target="" alt="Caminho violeta do nirvana" title="Caminho violeta do nirvana" href="" coords="2081,292,73" shape="circle" onclick="toggleSidebar(); return false;">
+    <area target="" alt="Hana wa Sakuragi, hito wa bushi" title="Hana wa Sakuragi, hito wa bushi" href="" coords="1802,1060,104" shape="circle" onclick="toggleSidebar(); return false;">
+    <area target="" alt="O Emissário do Dragão Rei" title="O Emissário do Dragão Rei" href="" coords="1585,1271,82" shape="circle" onclick="toggleSidebar(); return false;">
+    <area target="" alt="Caminho da deusa Benzaiten" title="Caminho da deusa Benzaiten" href="" coords="1503,1550,73" shape="circle" onclick="toggleSidebar(); return false;">
+    <area target="" alt="kusanagi no tsurugi" title="kusanagi no tsurugi" href="" coords="1231,1753,79" shape="circle" onclick="toggleSidebar(); return false;">
+    <area target="" alt="O Guerreiro de Mil Braços" title="O Guerreiro de Mil Braços" href="" coords="1592,829,79" shape="circle" onclick="toggleSidebar(); return false;">
+    <area target="" alt="Guerra na terra e no céu" title="Guerra na terra e no céu" href="" coords="1347,1081,78" shape="circle" onclick="toggleSidebar(); return false;">
+    <area target="" alt="Naginata-jutsu 2" title="Naginata-jutsu 2" href="" coords="1163,802,87" shape="circle" onclick="toggleSidebar(); return false;">
+    <area target="" alt="Meditação Profunda" title="Meditação Profunda" href="" coords="891,822,79" shape="circle" onclick="toggleSidebar(); return false;">
+    <area target="" alt="Sinergia Maior" title="Sinergia Maior" href="" coords="993,1115,106" shape="circle" onclick="toggleSidebar(); return false;">
+    <area target="" alt="Hecantoncheir Draconico" title="Hecantoncheir Draconico" href="" coords="1149,1318,110" shape="circle" onclick="toggleSidebar(); return false;">
+    <area target="" alt="Purificação Youkai" title="Purificação Youkai" href="" coords="884,1359,72" shape="circle" onclick="toggleSidebar(); return false;">
+    <area target="" alt="Possessão Draconica" title="Possessão Draconica" href="" coords="667,1128,103" shape="circle" onclick="toggleSidebar(); return false;">
+    <area target="" alt="Transformação Menor" title="Transformação Menor" href="" coords="415,1142,87" shape="circle" onclick="toggleSidebar(); return false;">
+    <area target="" alt="Saude de Maitreya" title="Saude de Maitreya" href="" coords="2353,156,89" shape="circle" onclick="toggleSidebar(); return false;">
+    <area target="" alt="Inteligencia de Mansjuri" title="Inteligencia de Mansjuri" href="" coords="2591,313,78" shape="circle" onclick="toggleSidebar(); return false;">
+    <area target="" alt="Força de Vajrapani" title="Força de Vajrapani" href="" coords="2734,530,82" shape="circle" onclick="toggleSidebar(); return false;">
+    <area target="" alt="Dextreza de Avalokistevara" title="Dextreza de Avalokistevara" href="" coords="2768,788,79" shape="circle" onclick="toggleSidebar(); return false;">
+</map>
+    <script src="characterSheet.js"></script>
+  </body>
+</html>
