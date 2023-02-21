@@ -144,7 +144,7 @@ h2.grid-title {
 .characterPhoto {
     border: solid;
     border-width: 2px;
-    border-color: #576cff;
+    border-color: #4df05c;
     border-radius: 50%;
     box-shadow: 0 0 10px #4df05c;
 }
@@ -266,7 +266,7 @@ table.expertise td button {
 }
 
 .expertise2 td:nth-child(2).Sazonal {
-   color: #576cff;
+   color: #4df05c;
     box-shadow: 0 0 10px #4df05c;
   }
 
