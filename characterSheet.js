@@ -809,11 +809,11 @@ function closeSidebar() {
   function updateSidebarContent(title) {
     let content;
     switch (title) {
-      case "A Lenda da Guerreira que Celebra a Maidono":
-        content = "";
+      case "A Lenda do descendente de Mara, O corruptor":
+        content = "Gasto: Livre <br> Requisito: Nenhum <br> ";
         break;
-      case "A Verdadeira Face do Deus Secreto":
-        content = "This is some custom content for the 'A Verdadeira Face do Deus Secreto' section.";
+      case "A Verdadeira face do deus secreto":
+        content = "Gasto: Livre <br> Requisito: Nenhum <br> No antigo Mausoléu Umebachi-Goryo, na vila destruída de Taishi, vocês fizeram uma descoberta incrivel, vocês libertaram uma nova força ao mundo, o Deus Secreto, absoluto em seu poder e supremo em sua sagacidade estará cada vez mais próximo de vocês, sintam seu poder correndo por tuas veias e vejam a natureza respirar e a energia se movimentar";
         break;
       case "Fé Nativa em meio a terra morta":
         content = "This is some custom content for the 'Fé Nativa em meio a terra morta' section.";
