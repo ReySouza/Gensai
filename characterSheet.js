@@ -810,14 +810,101 @@ function closeSidebar() {
     let content;
     switch (title) {
       case "A Lenda do descendente de Mara, O corruptor":
-        content = "Gasto: Livre <br> Requisito: Nenhum <br> ";
+        content = "Gasto: Livre <br> Requisito: Nenhum <br> A poeira abaixava no campo de batalha, a luta havia terminado e o alvo de vocês havia finalmente caído. Você olha para o lado e percebe seus companheiros de viagem derrubando suas armas no chão, limpando o suor de suas testas e o sangue de suas lâminas, a adrenalina ainda corre em suas veias, seus batimentos cardiacos estão aceleradíssimos. Quando você olha para seus braços, você vê as monstruosidades coladas ao seu corpo, o sangue sendo bombeado pelas veias saltadas, os musculos deformados se flexionando e contorcendo, a estrutura inteira do seu corpo se retorcendo para acomodar as mutações <br><br> Você se tornou um monstro, uma aberração, seu unico propósito agora é ser sacrificado para que o mundo possa ser reiniciado e a humanidade possa ser salva";
         break;
       case "A Verdadeira face do deus secreto":
         content = "Gasto: Livre <br> Requisito: Nenhum <br> No antigo Mausoléu Umebachi-Goryo, na vila destruída de Taishi, vocês fizeram uma descoberta incrivel, vocês libertaram uma nova força ao mundo, o Deus Secreto, absoluto em seu poder e supremo em sua sagacidade estará cada vez mais próximo de vocês, sintam seu poder correndo por tuas veias e vejam a natureza respirar e a energia se movimentar";
         break;
-      case "Fé Nativa em meio a terra morta":
-        content = "This is some custom content for the 'Fé Nativa em meio a terra morta' section.";
+      case "O Guerreiro que luta sob o sol eterno do verão":
+        content = "Gasto: 3 PF <br> Requisito: Nenhum <br>  O Verão é uma das estações mais energéticas, a vida parece brotar com mais força, as chamas que queimam em suas costas interagem diretamente com este ambiente vivo e dinâmico, se alimentando dos raios do sol, a energia liberada pelas árvores, o fogo dentro do coração dos homens e dos animais, este vigor lhe dá vida. <br> Ao comprar este foco, você ganha 5 pontos sazonais";
         break;
+      case "Verão dos deuses da terra":
+        content = "Gasto: 2 PF <br> Requisito: Nenhum <br> Você pode focar seus poderes no aspecto mais destrutivo possível, a radiação solar é extremamente mortal e a própria figura de um Deus Solar é vista com honra e aclamação <br> Ao comprar este foco, você pode adicionar uma componente sazonal aos ataques do Nyuudo, os ataques do Nyuudo serão preenchidos com fogo e ele não receberá dano pelos próprios ataques";
+        break;
+      case "Verão dos deuses celestiais":
+        content = "Gasto: 2 PF <br> Requisito: Nenhum <br> Você pode focar seus poderes no aspecto mais sagrado possível, a luz do sol é uma eterna fonte não apenas de iluminação física como iluminação espiritual, não é a toa que o símbolo do Nirvana é o sol. <br> Ao comprar este foco, você pode adicionar o poder da sua estação em sua arma, ela não queimará com as chamas e terá um acréscimo de dano igual a uma habilidade sazonal sua ";
+        break;
+      case "Prisma solar":
+        content = "Gasto: 4 PF <br> Requisito: Nenhum <br> Este foco é mutualmente exclusivo com Terra Desolada <br> Suas habilidades se tornam mais fortes, você aprende a canalizar melhor a luz do sol não apenas para você como para outros. <br> Ao comprar este foco,  você adquire a habilidade Prisma Solar, você consegue refletir os raios do sol e isolar seu poder. Você pode adicionar uma componente de fogo para todos os seus ataques e os ataques de seus companheiros, exceto aquelas que obviamente iriam ser anuladas";
+        break;
+      case "Terra Desolada":
+        content = "Gasto: 4 PF <br> Requisito: Nenhum <br> Este foco é mutualmente exclusivo com Prisma Solar <br> Suas habilidades se tornam mais poderosas, as chamas em suas costas crescem, as labaredas podem atingir até 1m de altura. <br> Ao comprar este foco, você adquire a habilidade terra desolada, você se torna resistente a dano de fogo e pode recuperar mana ao se rodear em chamas";
+        break;
+      case "Hyakki Yagyo":
+        content = "Gasto: Livre <br> Requisito: Nenhum <br> Pouco antes de vocês se encontrarem, um livro chamado Shūgaishō, cujo autor é desconhecido, continha instruções sobre como sobreviver ao Hyakki Yagyo, caso ele viesse a ocorrer. A instrução é não sair de casa em hipotése alguma e aqueles que ouvirem o desfile, devem conjurar estas palavras <br><br> KA-TA-SHI-HA-YA, E-KA-SE-NI-KU-RI-NI, TA-ME-RU-SA-KE, TE-E-HI, A-SHI-E-HI, WA-RE-SHI-KO-NI-KE-RI. Talvez seja tarde demais para isso";
+        break;
+      case "Maldição Celestial":
+        content = "Gasto: 2 PF (Coletivo) <br> Requisito: Nenhum <br> Não é possível que tudo tenha sido uma coincidência, o roubo da Shichiseiken e o ataque em Naniwa devem estar relacionados de alguma forma, tudo foi planejado, a vinda do imperador, o fluxo de Youkais nunca vistos antes no dia do festival de Tsukimi, o festival da Lua. Alguma coisa está prestes a acontecer e vocês são os catalisadores para o cataclisma";
+        break;
+      case "Nictofobia":
+        content = "Gasto: 3 PF <br> Requisito: Descobrir quem pegou a espada de Sete Estrelas <br><br><br> A morte não é uma escapatória";
+        break;
+      case "Virtude Budista":
+        content = "Gasto: Livre <br> Requisito: Nenhum <br> As virtudes de um guerreiro se confundem muito com as próprias virtudes Budistas, não é a toa que a vinda do Shogunato ao Japão é uma das principais razões para o avanço do Budismo na escala em que ele foi visto. Você pode se inspirar nos Deuses, Bodhisattvas e guerreiros antigos para se tornar um guerreiro mais poderoso";
+        break;
+      case "O Caminho dos nove sofrimentos":
+        content = "Gasto: Livre <br> Requisito: Nenhum <br> Duhkha, traduzido como sofrimento, dor ou infelicidade é um conceito chave para o Budismo. a maior parte das escolas tipicamente associam 9 sofrimentos que devem ser superados no caminho para o Nirvana: Sofrimento do nascimento, da velhice, da doença, da morte, de estar separado de entes queridos, de estar junto de entes odiados, não ter tudo que quer, de depender de coisas materiais e talvez o mais importante de todos, o sofrimento causado pelo renascimento. O caminho de todo Budista é repleto de tribulações e desafios que devem ser superados, o aspirante ao Nirvana, de qualquer forma ou tipo, deve superar estes desafios ";
+        break;
+      case "Prakrti":
+        content = "Gasto: 3 PF <br> Requisito: Retorne ao Budismo <br> Após tanto tempo estando longe da fé Budista, você se vê novamente enfrentando os mesmos demônios que enfrentava antes, as ameaças e os perigos anunciados nos antigos pergaminhos estão se confirmando, você se sente mais confortável em retornar para a fé e talvez retornar ao caminho para o Nirvana";
+        break;
+      case "Caminho ensanguentado do nirvana":
+        content = "Gasto: 2 PF <br> Requisito: Encontrar uma cópia do Ōjōyōshū <br> Este foco é mutualmente exclusivo com Caminho violeta do Nirvana <br> Você decidiu que seu retorno será segundo seus próprios termos, você não será aprisionado ou restringido por qualquer escola ou doutrina, você construirá seu próprio caminho para o Nirvana, mesmo que tenha que passar por cima de muitos cadaveres para isso ";
+        break;
+      case "Caminho violeta do nirvana":
+        content = "Gasto: 2 PF <br> Requisito: Encontrar uma cópia de Shigisan Engi <br> Este foco é mutualmente exclusivo com Caminho ensanguentado do Nirvana <br> Você decidiu retornar ao Budismo, o aspecto mais importante para a ascensão ao Nirvana é a orientação Espiritual, você precisa obter controle não apenas sobre sua mente mas também seu espírito, seu caminho para o Nirvana será cheio de tribulações, mas as recompensas serão maiores aindas";
+        break;
+      case "Hana wa Sakuragi, hito wa bushi":
+        content = "Gasto: Livre <br> Requisito: Nenhum <br> As cerejeiras são para as flores o que os guerreiros são para os homens, um hino para a classe mais poderosa de cidadãos Japoneses. Mesmo o grande imperador do Japão ficaria completamente indefeso sem sua guarda particular, isso foi visto quando durante a Guerra Genpei, o imperador foi deposto do poder e se tornou um cargo exclusivamente simbólico e o Shogunato Kamakura foi estabelecido, assim encerrando o período Heiano, a epoca de ouro do Japão Medieval ";
+        break;
+      case "O Emissário do Dragão Rei":
+        content = "Gasto: 4 PF <br> Requisito: Nenhum <br> Você ainda não sabe de onde que o seu nyuudo tirou a inspiração para assumir uma forma de Dragão quando vocês se conheceram, você assume que teria sido apenas uma escolha estética, mas algo dentro de você pensa que talvez seja mais que só isso. Os Dragões no Japão não são simplesmente Deuses comuns como aqueles do Yaoyorozu-no-Kami, eles são governadores do Céu, alguns especulam que o Dragão Rei pode ser mais poderoso que Amaterasu, a Deusa Suprema e mais poderosa do Shinto ";
+        break;
+      case "Caminho da deusa Benzaiten":
+        content = "Gasto: 3 PF <br> Requisito: Visitar o templo de Benzaiten <br> Benzaiten é uma Deusa Budista que foi sincretizada no Shintoismo, ela é a Deusa da água, música, arte, amor, sabedoria e fortuna, essa grande quantidade de atribuições indica sua natureza multifacetada, mas algo que você ouve poucos falarem é sobre sua relação com o Rei Dragão. Benzaiten é a terceira filha do Rei Dragão e em muitas fontes diferentes, ela mora com o dragão em seu palácio    ";
+        break;
+      case "kusanagi no tsurugi":
+        content = "Gasto: 2 PF <br> Requisito: Receber orientação de Benzaiten <br> A espada Kusanagi no Tsurugi, um dos tesouros do Japão, foi utilizado pelo Deus das tempestades, Susanoo para matar o dragão de oito cabeças, Yamata no Orochi. Você acredita saber a localização desta espada após a Deusa Benzaiten lhe contar, você só precisa ir pegar";
+        break;
+      case "O Guerreiro de Mil Braços":
+        content = "Gasto: 4 PF <br> Requisito: Nenhum <br> O Reino de Asura é tipicamente visto dentro da cosmologia Budista como um meio termo entre os caminhos bons e ruins do Samsara, ele não inteiramente ruim como os Reinos do Inferno, Animal e Fantasma, mas também não é bom como o Reino dos Devas. Os habitantes deste reino são tipicamente Deuses e Semi-Deuses que foram expulsos do Reino dos Devas, seu poder é absurdamente grande e aqueles que reincarnam neste reino são envolvidos em um estado constante e interminável de destruição, luta e conflito. Os Asuras são seres arrogantes, violentos e egoístas, por isso que o reino dos Asuras também é chamado de reino dos desejos. Ao comprar este foco, você manifesta os poderes de um Asura, sua habilidade de sangue de Asura será melhorada, o dano de cada soco aumentará para 2d6 e você sempre atacará no mesmo turno";
+        break;
+      case "Guerra na terra e no céu":
+        content = "Gasto: 4 PF <br> Requisito: Nenhum <br> Nesta guerra, você possui uma vantagem que outros não poderiam imaginar, você é capaz de travar uma guerra na terra e nos céus. Derrube os do ar com o Nyuudo e finalize o serviço na terra, a parceria entre os dois será crucial para garantir que os dois sobrevivam. <br> Ao comprar este foco, você colocará uma enfase maior na cooperação entre você e seu Nyuudo, vocês poderão organizar ataques em conjunto sempre que estiverem em iniciativas diferentes, lembrando que você precisará ter liberado a cabeça do Nyuudo para colocar ele na iniciativa";
+        break;
+      case "Naginata-jutsu 2":
+        content = "Gasto: 2 PF <br> Requisito: Treinar com uma Naginata <br> Este foco é mutualmente exclusivo com Hecatoncheir Draconico <br> Você já passou por todo tipo de batalha imaginável, vocÊ se tornou um guerreiro muito experiente não apenas com o bastão, mas também com outras armas longas, agora, você só precisa selar o trato e aprimorar seu estilo de combate <br> Ao comprar este foco, seu estilo de combate será substituido por Naginatajutsu 2, um estilo de combate mais forte e que incluirá novas vantagens para bastões e naginatas ";
+        break; 
+      case "Meditação Profunda":
+        content = "Gasto: 3 PF <br> Requisito: Destruir o bracelete <br> Você se tornou um guerreiro eximio, um caçador de Youkais e ao longo de seu caminho sangrento, você deixou um rastro de destruição impressionante entretanto, existe um alvo que você parece não ter dado muita atenção, a alma do Nyuudo é extremamente poderosa, o conhecimento e a força do Nyuudo seriam suficientes para você eliminar qualquer alvo que estiver a sua frente, você só precisa achar um jeito de absorver-la <br> Ao comprar este foco, você perderá seu Nyuudo, mas em troca, irá absorver seus poderes para si, você se tornará mais forte, ágil e inteligente";
+        break;
+      case "Sinergia Maior":
+        content = "Gasto: 3 PF <br> Requisito: Nenhum <br> Vocês já passaram um bom tempo juntos e conseguem se entender muitas vezes sem precisarem trocar uma palavra, sua conexão psiquica com o Nyuudo se torna mais forte, você poderá se comunicar com ele de uma distância muito maior. <br> Ao comprar este foco, ele poderá utilizar todas as suas habilidades, exceto sazonais, ele fará com um modificador de -2";
+        break; 
+      case "Hecantoncheir Draconico":
+        content = "Gasto: 4 PF <br> Requisito: Nenhum <br> Este foco é mutualmente exclusivo com Naginatajutsu 2 <br> Para tornar seu Nyuudo mais poderoso, você precisará atingir o limite do que este bracelete é capaz, você entende que ele possui suas limitações então é importante que você comece a procurar alternativas para ele, se você quiser que o Nyuudo se torne cada vez mais forte <br> Ao comprar este foco, você terá um leque maior de habilidades para o seu Nyuudo. você poderá criar até 4 braços ou 2 cabeças para ele, lembrando que cada cabeça é capaz de controlar apenas 2 braços ";
+        break;
+      case "Purificação Youkai":
+        content = "Gasto: 3 PF <br> Requisito: Destruir o bracelete <br> Este foco é mutualmente exclusivo com Possessão Draconica <br> Até então, você já terá percebido que o grande limitador do poder do seu Nyuudo é o bracelete, este dispositivo mágico pode ter permitido que vocês se comuniquem e lutem juntos no inicio, mas agora você percebe que sua utilidade está chegando ao fim, livre-se dele, liberte o Nyuudo ao mundo permanentemente para que ele reine os céus e devaste tudo pelo seu caminho";
+        break; 
+      case "Possessão Draconica":
+        content = "Gasto: 2 PF <br> Requisito: Melhorar seu bracelete <br> Este foco é mutualmente exclusivo com Purificação Youkai e Meditação Profunda <br> Até então, você conseguiu perceber que o bracelete que te une ao seu Nyuudo tem diversas limitações, muitas delas que já te deixaram na mão inumeras vezes, você acredita que deva existir uma versão aprimorada dele, uma versão que possa libertar o potencial da sua relação com a criatura <br> Ao comprar este foco, você irá melhorar seu bracelete e obter um novo arsenal de melhorias para seu Nyuudo ";
+        break;
+      case "Transformação Menor":
+        content = "Gasto: 4 PF <br> Requisito: Nenhum <br> Sua conexão com o Nyuudo se tornou muito forte desde que vocês se conheceram, não é nenhum exagero dizer que ele é uma extensão de seu próprio corpo, talvez isto até lhe faça questionar se você ainda é humano, de qualquer forma, você escolhe tornar esta conexão mais forte ainda <br> Ao comprar este foco, você adquire certas características dracônicas e adiciona elas de forma permanente ao seu corpo, você se torna mais leve que o ar, podendo voar usando o vento e adquire um pouco da aparência e dos atributos do seu Nyuudo";
+        break; 
+      case "Saude de Maitreya":
+        content = "Gasto: 3 PF <br> Requisito: Nenhum <br> Maitreya é o atual renovador do Budismo, quando os ensinamentos de Gautama Buddha tiverem sido esquecidos neste mundo. <br> Ao comprar este foco, você irá obter a iluminação de Maitreya, suceda em um teste de HT e você poderá se curar utilizando sua stamina ";
+        break;
+      case "Inteligencia de Mansjuri":
+        content = "Gasto: 3 PF <br> Requisito: Nenhum <br> Mansjuri é um bodhisattva associado com o conceito de Prajna, ou sabedoria de acordo com o Budismo. Ele tipicamente aparece segurando uma espada flamejante em cima de um leão azul. <br> Ao comprar este foco, você poderá manifestar a sabedoria de Mansjuri, suceda em um teste de IQ e recite o mantra oṃ arapacana dhīḥ, você se sentirá inspirado, você pode escolher como aplicar essa inspiração, você pode dar uma vantagem de 1d6 para alguém ou usar em si mesmo";
+        break; 
+      case "Força de Vajrapani":
+        content = "Gasto: 3 PF <br> Requisito: Nenhum <br> Vajrapani é um dos primeiros bodhisattvas a aparecer e o guardião de Gautama Buddha, ele tipicamente aparece usando uma coroa de caveiras, seu pescoço é decorado com um colar de cobras, seu cinto é feito de pelo de tigre e ele segura uma Vajra. <br> Ao comprar este foco, você manifestará o poder de Vajrapani, durante 1d6 turnos, ou aproximadamente 1 min, você sucederá em qualquer teste de força automaticamente, você precisará fazer um teste de fatiga após usar esta habilidade ";
+        break;
+      case "Dextreza de Avalokistevara":
+        content = "Gasto: 3 PF <br> Requisito: Nenhum <br> Avalokitesvara é um dos principais bodhisattvas, ele incorpora toda a compaixão dos Buddhas ao mundo e é o principal assistentes de Amitabha Buddha, o sucessor de Gautama Buddha. Uma história conta que ele teria feito um voto para nunca descansar enquanto todas as criaturas fossem libertas do Samsara. Apesar de seu esforço divino, ele percebeu que era uma tarefa quase impossivel, depois de tentar ouvir os prantos e compreender as necessidades das almas presas no inferno, sua cabeça se partiu em onze partes e todas as vezes que ele tentava alcançar as almas, seus braços se quebravam. Amitabha viu seu desespero e lhe deu mil braços para alcançar as multidões. Incorpore os espírito de Avalokitesvara, com seu poder, você terá que escolher entre condenar ou salvar as almas ao samsara <br> Ao comprar este foco, você poderá refazer todo teste de Dextreza que falhar por até 2";
+        break; 
       default:
         content = "This is some default content for an undefined section.";
     }
