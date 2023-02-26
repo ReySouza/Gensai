@@ -804,8 +804,8 @@ nav{
 
 .login-button:hover{
     color:#fff;
-    background-color: #05660e;
-    border:1.5px solid #05660e;
+    background-color: #05f90e;
+    border:1.5px solid #05f90e;
     transition: all ease-in-out 350ms;
 }
 
