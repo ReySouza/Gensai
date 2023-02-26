@@ -905,8 +905,17 @@ function closeSidebar() {
       case "Dextreza de Avalokistevara":
         content = "Gasto: 3 PF <br> Requisito: Nenhum <br> Avalokitesvara é um dos principais bodhisattvas, ele incorpora toda a compaixão dos Buddhas ao mundo e é o principal assistentes de Amitabha Buddha, o sucessor de Gautama Buddha. Uma história conta que ele teria feito um voto para nunca descansar enquanto todas as criaturas fossem libertas do Samsara. Apesar de seu esforço divino, ele percebeu que era uma tarefa quase impossivel, depois de tentar ouvir os prantos e compreender as necessidades das almas presas no inferno, sua cabeça se partiu em onze partes e todas as vezes que ele tentava alcançar as almas, seus braços se quebravam. Amitabha viu seu desespero e lhe deu mil braços para alcançar as multidões. Incorpore os espírito de Avalokitesvara, com seu poder, você terá que escolher entre condenar ou salvar as almas ao samsara <br> Ao comprar este foco, você poderá refazer todo teste de Dextreza que falhar por até 2";
         break; 
+      case "Caminho da Deusa Kannon":
+        content = "Gasto: 3 PF <br> Requisito: Visitar o templo de Kannon <br> Kannon é uma Deusa da compaixão vinda do Budismo para o Japão. Ela é considerada uma Bodhisattva e fez um voto para não se tornar uma Buda enquanto o sofrimento ainda existisse em nosso mundo. Assim como Benzaiten, ela também está relacionada com o Dragão-Rei, sendo uma de suas filhas entretanto, ao contrário de Benzaiten, Kannon se recusou a morar no palácio real e se voltou contra seu pai inumeras vezes. Em uma dessas vezes, Kannon enfrentou o dragão e impediu que ele causasse uma enorme seca que mataria a população. Siga suas orientações e ela poderá lhe fornecer grande sabedoria";
+        break; 
+      case "Pedido Impossivel - Jóia do colar do Dragão-Rei":
+        content = "Gasto: 3 PF <br> Requisito: Nenhum <br> Gasto: Livre <br> Requisito: Nenhum <br> Na fantástica história da Princesa Kaguya, ela exigiu que seus pretendentes viajassem por todos os cantos do planeta atrás de items mágicos, ela sabia que os homens não sobreviveriam a viagem e que os itens poderiam até mesmo não existir, um destes itens é o colar que o Dragão-Rei utilizaria, enfrentar o Dragão em combate seria suicidio completo, algo que nem o mais tolo dos homens conseguiria fazer porém, com a ajuda de Kannon, existem outras formas de obter esse artefato ";
+        break;
+      case "Shichiseiken e o pacto secreto":
+        content = "Gasto: Livre <br> Requisito: Traduzir os documentos encontrados no Mausoléu <br><br> Finalmente o nome verdadeiro do Deus secreto foi revelado, porém ainda não é possível determinar a razão para ele estar se envolvendo com a Shichiseiken e o Principe Shotoku, é necessário investigar mais a fundo";
+        break; 
       default:
-        content = "This is some default content for an undefined section.";
+        content = "Se você encontrou esse foco, significa que ele está trancado (ou você achou um bug)";
     }
     sidebar.innerHTML = `
       <a href="#" class="closebtn" onclick="toggleNav()">&times;</a>
